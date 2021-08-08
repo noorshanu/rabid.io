@@ -865,7 +865,7 @@ button {
 .icon_btn {
   width: 80px;
   display: block;
-  height: 80px;
+  height: 62px;
   margin-bottom: 2px;
 }
 .icon_a {
@@ -881,8 +881,8 @@ button {
   border-color: #00aced;
 }
 .icon_wrapper img {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   margin-left: 12px;
   margin-top: 16px;
 }
