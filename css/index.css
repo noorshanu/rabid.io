@@ -1172,6 +1172,7 @@ input {
 .fullcoveredvideo .poster_img.poster_img2 {
   width: auto;
   top: 50%;
+  margin-top: 7%;
   height: 400px;
 }
 .videos,
