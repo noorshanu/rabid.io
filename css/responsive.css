@@ -1224,6 +1224,13 @@
   }
   .logo img {
     margin-top: 0;
+    height: 41px;
+  }
+  .fullcoveredvideo .poster_img.poster_img2{
+  	height: 300px;
+  }
+  .head_box{
+  	height: 70vh !important;
   }
   .grop-nav {
     margin-top: 0;
