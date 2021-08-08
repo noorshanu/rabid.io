@@ -2,11 +2,13 @@
   font-weight: 700 !important;
 }
 .primary_color {
-  color: #ffe802;
+color: #a4508b;
+
+
   line-height: 200%;
 }
 .section_header h1.yellow {
-  color: #ffe802;
+  color: #6f1a88;
   margin: 50px auto 20px;
 }
 .section_header h1.white {
@@ -80,7 +82,7 @@
 }
 .feature_block_card {
   padding: 20px;
-  background: #212121;
+  background: #21212152;
   border-radius: 34px;
   min-height: 270px;
   width: 24%;
@@ -94,6 +96,8 @@
 }
 .feature_block_card_img img {
   margin: 0 auto;
+  height: 106px;
+    margin-left: 30%;
 }
 .mb-3 {
   margin-bottom: 1rem !important;
@@ -111,7 +115,8 @@ h5 {
   font-size: 1.25rem;
 }
 .richtext p {
-  font-size: 18px;
+  color: #c1bbbb;
+  font-size: 19px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   word-wrap: break-word;
@@ -252,11 +257,9 @@ h6 {
   padding-bottom: 10px !important;
 }
 .tokenomicsbox {
-  background: -webkit-linear-gradient(left top, #57f6da, #ffe606);
-  background: -o-linear-gradient(bottom left, #57f6da, #ffe606);
-  background: -moz-linear-gradient(bottom left, #57f6da, #ffe606);
-  background: linear-gradient(to bottom left, #57f6da 20%, #ffe606 80%)
-    no-repeat;
+background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
   border-radius: 30px;
 }
 .m-0 {
