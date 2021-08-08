@@ -323,7 +323,7 @@ h5.fw-normal.left {
 .documents {
   width: 100%;
   height: auto;
-  background: #ffe802;
+  background: #b33f40;
   padding: 30px 0 50px;
   margin-top: 80px;
 }
@@ -333,7 +333,7 @@ h5.fw-normal.left {
   margin: 30px auto;
 }
 .section_header h1.black {
-  color: #1a1a1b;
+  color: #fff;
 }
 .documents .section_header h1 {
   font-size: 52px;
@@ -552,8 +552,7 @@ h3 {
   font-size: 23px;
 }
 .social_icon_with_background_section_inner {
-  background-image: url(../images/join_bg.jpg);
-  background-repeat: no-repeat;
+  background-color: #b33f40;
   background-size: cover;
   background-position: center center;
 }
@@ -563,7 +562,7 @@ h3 {
   margin-bottom: 30px;
 }
 .fw-bold1 cite {
-  color: #ff5172;
+  color: #000000;
   font-style: normal;
 }
 .section_header1 {
@@ -572,11 +571,11 @@ h3 {
   margin-bottom: 2rem;
 }
 .section_header1 p {
-  color: #1a1a1b;
+  color: #fff;
   text-align: center;
 }
 .section_header1 strong {
-  color: #ff5172;
+  color: #000000;
 }
 .bnt_box {
   width: 560px;
