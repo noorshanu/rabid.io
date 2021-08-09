@@ -333,7 +333,7 @@ h5.fw-normal.left {
   margin: 30px auto;
 }
 .section_header h1.black {
-  color: #fff;
+  color: #31312f;
 }
 .documents .section_header h1 {
   font-size: 52px;
@@ -552,7 +552,7 @@ h3 {
   font-size: 23px;
 }
 .social_icon_with_background_section_inner {
-  background-color: #b33f40;
+  background-color: #f2c22a;
   background-size: cover;
   background-position: center center;
 }
@@ -571,7 +571,7 @@ h3 {
   margin-bottom: 2rem;
 }
 .section_header1 p {
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 .section_header1 strong {
