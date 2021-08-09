@@ -8,7 +8,7 @@ color: #a4508b;
   line-height: 200%;
 }
 .section_header h1.yellow {
-  color: #6f1a88;
+  color: #f2c22a;
   margin: 50px auto 20px;
 }
 .section_header h1.white {
@@ -610,7 +610,7 @@ h3 {
   margin-right: -26px;
 }
 .contact_us_section h1 {
-  color: #ffe802;
+  color: #f2c22a;
   font-size: 48px;
 }
 .contact_us_card {
@@ -654,9 +654,9 @@ input.blue_btn {
   display: block;
   letter-spacing: 0.02em;
   transition: all 0.3s;
-  border: 2px solid #ffe802;
+  border: 2px solid #f2c22a;
   color: #1a1a1b;
-  background-color: #ffe802;
+  background-color: #f2c22a;
   border-radius: 10px;
   margin: 0 auto;
 }
@@ -667,7 +667,7 @@ input.blue_btn:hover {
 }
 .partner_section_inner .grey_big_title cite {
   font-style: normal;
-  color: #ffe802;
+  color: #f2c22a;
 }
 #Partner_section {
   padding-top: 40px;
