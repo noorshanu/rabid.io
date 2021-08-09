@@ -963,3 +963,18 @@ button {
 
   margin-bottom: -25px;
 }
+.toko-h2{
+  color: #f2c22a;
+  font-size: x-large;
+  margin-left:20px
+}
+.toko-li-img{
+  position: relative; 
+  top: 39px;
+  height: 40px;
+}
+.toko-li-spa{
+  margin-left:20px; 
+  position: relative;
+  top: -10px;
+}
