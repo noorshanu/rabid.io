@@ -1003,7 +1003,7 @@ button {
 .event1Bubble {
   position: absolute;
   background-color: rgba(158, 158, 158, 0.1);
-      width: 160px;
+      width: 127px;
     height: 61px;
     top: -75px;
   left: -15px;
@@ -1014,7 +1014,7 @@ button {
 .event2Bubble {
   position: absolute;
   background-color: rgba(158, 158, 158, 0.1);
-  width: 139px;
+  width: 127px;
   height: 60px;
   left: -105px;
   top: 33px;
@@ -1103,7 +1103,7 @@ button {
 .eventTitle {
   font-family: "Arial Black", Gadget, sans-serif;
      color: #f2c22a;
-    font-size: 12px;
+    font-size: 9px;
   text-transform: uppercase;
   display: flex;
   flex: 1;
