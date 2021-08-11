@@ -1229,6 +1229,10 @@
   .fullcoveredvideo .poster_img.poster_img2{
   	height: 300px;
   }
+  .tokenomics-img{
+    height: auto !important;
+    margin-left: 0% !important;
+  }
   .head_box{
   	height: 70vh !important;
   }
