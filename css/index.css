@@ -1162,19 +1162,19 @@ input {
 .fullcoveredvideo {
   position: relative;
 }
-.fullcoveredvideo .poster_img {
-  width: 100px;
+ .poster_img {
+ /* width: 100px;
   position: absolute;
   left: 33%;
   top: 39%;
   margin-left: -50px;
   z-index: 2;
-  cursor: pointer;
+  cursor: pointer;*/
 }
-.fullcoveredvideo .poster_img.poster_img2 {
+/*.fullcoveredvideo*/ .poster_img.poster_img2 {
   width: auto;
-  top: 50%;
-  margin-top: 4%;
+  /*top: 18%;*/
+  margin-top: 9%;
     height: 475px;
 }
 .videos,
