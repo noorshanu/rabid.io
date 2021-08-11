@@ -1174,3 +1174,9 @@ button {
   -webkit-filter: opacity(0.3);
   filter: opacity(0.3);
 }
+
+.btn{
+  background-color: #f2c22a;
+    padding: 7px;
+    border-radius: 6px;
+}

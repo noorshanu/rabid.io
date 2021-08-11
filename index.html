@@ -82,9 +82,31 @@
 
 </div>
 <!-- <div class="tp-video-play-button"><i class="revicon-right-dir"></i> <span class="tp-revstop">&nbsp;</span></div> -->
+<div><p class="contract-add" style="margin-top:50%;">contract address: 
+<span id="copy_code">0x4c2cec09266dd4a311e4cc1e91f31bf72013ac31</span> <button id="first-button" class="btn btn-sm btn-light" onclick="copyText('first');" title="Copy Text">
+                Copy</button></p>
+ 
+            </div>
+
 </div>
 
 </div>
+ <script>
+  function copyText(element) {
+  var $copyText = document.getElementById('copy_code').innerText;
+  var button = document.getElementById(element + '-button');
+  navigator.clipboard.writeText($copyText).then(function() {
+    var originalText = button.innerText;
+    button.innerText = 'Copied!';
+    setTimeout(function(){
+      button.innerText = originalText;
+      }, 750);
+  }, function() {
+    button.style.cssText = "background-color: var(--red);";
+    button.innerText = 'Error';
+  });
+}
+ </script>
 </section>
 </div>
 <section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-inner-section elementor-element elementor-element-2948c1a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2948c1a" data-element_type="section">
