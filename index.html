@@ -77,7 +77,7 @@
 <source src="RABIDDOGE oge1080p40mb.mp4" type="video/mp4">
 </video> -->
 <div style="text-align: center;">
-<img data-v-0419d8b4="" src="images/video-btn.png" class="poster_img poster_img2">
+<img  src="images/video-btn.png" class="poster_img poster_img2">
 <p class="contract-add" style=" color: #fff;">contract address: 
 <span id="copy_code" style="color:#fff">0x4c2cec09266dd4a311e4cc1e91f31bf72013ac31</span> <button id="first-button" class="btn btn-sm btn-light" onclick="copyText('first');" title="Copy Text">
                 Copy</button></p>
@@ -116,7 +116,7 @@
 <section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-inner-section elementor-element elementor-element-2948c1a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2948c1a" data-element_type="section">
 <div class="section_header">
 <h1 class="fw_600 yellow time1 lang" data-key="PRESALE">PRESALE COMING-SOON</h1>
-<h1 class="fw_600 lang" style="text-transform:uppercase" data-key="Soft">Soft Cap:  &nbsp;&nbsp; Hard Cap:
+<h1 class="fw_600 lang" style="text-transform:uppercase" data-key="Soft">Soft Cap:1500  &nbsp;&nbsp; Hard Cap: 3000
  </h1>
 </div>
 <div class="elementor-container elementor-column-gap-default">
@@ -131,23 +131,23 @@
 <div class="eael-countdown-container eael-countdown-label-block -tablet eael-countdown-label-block-mobile ">
 <ul id="eael-countdown-4160ac9" class="eael-countdown-items"><li class="eael-countdown-item">
   <div class="eael-countdown-days">
-    <span data-days="" class="eael-countdown-digits">0</span><span class="eael-countdown-label lang" data-key="Days">Days</span>
+    <span data-days="" class="eael-countdown-digits" id="days">0</span><span class="eael-countdown-label lang" data-key="Days">Days</span>
   </div>
 </li><li class="eael-countdown-item">
   <div class="eael-countdown-hours">
-    <span data-hours="" class="eael-countdown-digits">0</span>
+    <span data-hours="" class="eael-countdown-digits" id="hours">0</span>
     <span class="eael-countdown-label lang" data-key="Hours">Hours</span>
   </div>
 </li>
 <li class="eael-countdown-item">
   <div class="eael-countdown-minutes">
-    <span data-minutes="" class="eael-countdown-digits">0</span>
+    <span data-minutes="" class="eael-countdown-digits" id="minutes">0</span>
     <span class="eael-countdown-label lang" data-key="Minutes">Minutes</span>
   </div>
 </li>
 <li class="eael-countdown-item">
   <div class="eael-countdown-seconds">
-    <span data-seconds="" class="eael-countdown-digits">0</span>
+    <span data-seconds="" class="eael-countdown-digits" id="seconds">0</span>
     <span class="eael-countdown-label lang" data-key="Seconds">Seconds</span>
   </div>
 </li>
@@ -160,7 +160,9 @@
 </div>
 </div>
 </div>
-<div class="buy disabled" disabled> BUY PRESALE</div>
+<div class="buy " > <a href="#popup1">BUY PRESALE</a> </div>
+<div class="buy " ><a href="https://dxsale.app/app/v2_9/defipresale?saleID=2461&chain=BSC" target="_blank">BUY DxSALE</a></div>
+
 </section>
 <section id="Team">
 <div id="root ">
@@ -1513,6 +1515,16 @@ returns.
 </svg>
 </a></div>
 </div>
+</div>
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <h2>Scan To Buy Pre-Sale</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <img src="qr-code.png" height="350px">
+    </div>
+  </div>
 </div>
 <script type="text/javascript" src="js/main.js"></script>
 <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>

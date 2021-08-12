@@ -43,64 +43,64 @@ $(function () {
     $(".tanchuang2").show();
   });
   $(".withdraw-btn").on("click", function () {});
-  $(".poster_img").click(function () {
-    $(this).hide();
-    var videos = $(this).siblings("video");
-    videos[0].play();
-  });
-  $(".video").click(function () {
-    $(this).siblings("img").show();
-    $(this)[0].pause();
-  });
-  $(".feature_row_video").each(function () {
-    $(this).click(function () {
-      var img = $(this).attr("vpath");
-      var video = $(this).attr("ipath");
-      $(".videos").html(
-        '<video id="video_close"  poster=\'' +
-          img +
-          "' style='width: 100%;' src='" +
-          video +
-          '\' preload="auto" controls="controls" autoplay="autoplay"></video><img onClick="close1()" class="vclose" src="images/close.png"/>'
-      );
-      $(".Celebrities-video").show();
-      $(".videos").show();
-      $(".video-box").show();
-    });
-  });
-  $(".feature_row_video2").each(function () {
-    $(this).click(function () {
-      var img = $(this).attr("vpath");
-      var video = $(this).attr("ipath");
-      $(".videos2").html(
-        '<video id="video_close2"  poster=\'' +
-          img +
-          "' style='width: 100%;' src='" +
-          video +
-          '\' preload="auto" controls="controls" autoplay="autoplay"></video><img onClick="close2()" class="vclose" src="images/close.png"/>'
-      );
-      $(".Celebrities-video").show();
-      $(".videos2").show();
-      $(".video-box2").show();
-    });
-  });
-});
-function close1() {
-  var v = document.getElementById("video_close");
-  $(".Celebrities-video").css("display", "none");
-  $(".videos").css("display", "none");
-  $(".video-box").css("display", "none");
-  v.pause();
-  $(".videos").html();
-}
-function close2() {
-  var v2 = document.getElementById("video_close2");
-  $(".Celebrities-video").css("display", "none");
-  $(".videos2").css("display", "none");
-  $(".video-box2").css("display", "none");
-  v2.pause();
-  $(".videos2").html();
-}
+//   $(".poster_img").click(function () {
+//     $(this).hide();
+//     var videos = $(this).siblings("video");
+//     videos[0].play();
+//   });
+//   $(".video").click(function () {
+//     $(this).siblings("img").show();
+//     $(this)[0].pause();
+//   });
+//   $(".feature_row_video").each(function () {
+//     $(this).click(function () {
+//       var img = $(this).attr("vpath");
+//       var video = $(this).attr("ipath");
+//       $(".videos").html(
+//         '<video id="video_close"  poster=\'' +
+//           img +
+//           "' style='width: 100%;' src='" +
+//           video +
+//           '\' preload="auto" controls="controls" autoplay="autoplay"></video><img onClick="close1()" class="vclose" src="images/close.png"/>'
+//       );
+//       $(".Celebrities-video").show();
+//       $(".videos").show();
+//       $(".video-box").show();
+//     });
+//   });
+//   $(".feature_row_video2").each(function () {
+//     $(this).click(function () {
+//       var img = $(this).attr("vpath");
+//       var video = $(this).attr("ipath");
+//       $(".videos2").html(
+//         '<video id="video_close2"  poster=\'' +
+//           img +
+//           "' style='width: 100%;' src='" +
+//           video +
+//           '\' preload="auto" controls="controls" autoplay="autoplay"></video><img onClick="close2()" class="vclose" src="images/close.png"/>'
+//       );
+//       $(".Celebrities-video").show();
+//       $(".videos2").show();
+//       $(".video-box2").show();
+//     });
+//   });
+// });
+// function close1() {
+//   var v = document.getElementById("video_close");
+//   $(".Celebrities-video").css("display", "none");
+//   $(".videos").css("display", "none");
+//   $(".video-box").css("display", "none");
+//   v.pause();
+//   $(".videos").html();
+// }
+// function close2() {
+//   var v2 = document.getElementById("video_close2");
+//   $(".Celebrities-video").css("display", "none");
+//   $(".videos2").css("display", "none");
+//   $(".video-box2").css("display", "none");
+//   v2.pause();
+//   $(".videos2").html();
+// }
 function copyText() {
   var text = document.getElementById("text").innerText;
   var input = document.getElementById("input");

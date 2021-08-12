@@ -1296,6 +1296,7 @@
   }
   .poster_img.poster_img2{
   	height: 300px;
+    margin-top: 85px;
   }
   .tokenomics-img{
     height: auto !important;
@@ -2128,7 +2129,7 @@
     margin-bottom: 0;
   }
   .section_header h1 {
-    font-size: 30px;
+    font-size: 21px;
   }
   .feature_row_with_video_column {
     width: 100%;
